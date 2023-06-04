@@ -1,0 +1,227 @@
+/* Metadata */
+name: Manuscript;
+      id: manuscript;
+
+      :root
+      {}
+
+.theme-dark
+{
+    --background-primary:       #050505; /* Фон страницы */
+    --background-primary-alt:   #0d0d0d; /* Блок с кодом */
+    --background-secondary:     #050505; /* Фон панелей(древо файлов, боковая панель и т.д.) */
+    --background-secondary-alt: #050505; /* Фон панелей(древо файлов, боковая панель и т.д.) */
+
+
+    
+    /* Colors */
+    --color-red:    #AA0000;  --color-red-rgb:    170,   0,   0;
+    --color-orange: #AA5500;  --color-orange-rgb: 170,  85,   0;
+    --color-yellow: #FFFF55;  --color-yellow-rgb: 255, 255,  85; 
+    --color-green:  #00AA00;  --color-green-rgb:    0, 170,   0;
+    --color-cyan:   #00AAAA;  --color-cyan-rgb:     0, 170, 170;
+    --color-blue:   #5555FF;  --color-blue-rgb:    85,  85, 255;
+    --color-purple: #AA00AA;  --color-purple-rgb: 170,   0, 170;
+    --color-pink:   #FF55FF;  --color-pink-rgb:   255,  85, 255;
+
+    --divider-color: #b2b2b2;
+    --divider-width: 2px;
+    
+    --header-height: 32px;
+    
+    /** Headers **/
+    
+    /* H1 */
+    --h1-weight: 700;
+    --h1-size:   1.80em;
+
+    /* H2 */
+    --h2-weight: 700;
+    --h2-size:   1.70em;
+
+    /* H3 */
+    --h3-weight: 600;
+    --h3-size:   1.55em;
+
+    /* H4 */
+    --h4-weight: 600;
+    --h4-size:   1.45em;
+
+    /* H5 */
+    --h5-weight: 500;
+    --h5-size:   1.30em;
+
+    /* H6 */
+    --h6-weight: 500;
+    --h6-size:   1.25em;
+
+    --hr-color:  #ececec;
+    
+    --icon-size: 18px;
+    --icon-s:    18px;
+
+    --input-height: 22px;
+    --input-radius: 0px;
+    
+    --line-height-tight: 1;
+
+    --radius-m: 0px;
+
+    --tab-radius-active: 0px;
+    
+    --text-faint:        #b2b2b2;
+    --text-highlight-bg: #ececec;
+    --text-normal:       #ececec;  /* Основной цвет */
+    --text-selection:    #ececec;
+    
+    /* Цвета заголовков */
+    --text-title-h1: #ececec;
+    --text-title-h2: #ececec;
+    --text-title-h3: #ececec;
+    --text-title-h4: #ececec;
+    --text-title-h5: #ececec;
+    --text-title-h6: #ececec;
+
+    --vault-name-font-weight: 900;
+}
+
+body
+{
+    --accent-h: 0;
+    --accent-s: 0%;
+    --accent-l: 75%; /* #bfbfbf */
+
+    --anim-duration-superfast: 0;
+    --anim-duration-fast:      0;
+    --anim-duration-moderate:  0;
+    --anim-duration-slow:      0;
+
+    --anim-motion-smooth: 0;
+    --anim-motion-delay:  0;
+    --anim-motion-jumpy:  0;
+    --anim-motion-swing:  0;
+    
+    --font-text:      "UNI-VGA_px", monospace;
+    --font-interface: "UNI-VGA_px", monospace;
+    --font-monospace: "UNI-VGA_px", monospace;
+      font-size:      15px;
+    --font-text-size: 15px;
+
+    --radius-s: 0px;
+}
+
+.callout
+{
+    border-opacity: 0.25;
+    border-radius:  0px;
+    border-width:   0px;
+    padding:        5px 5px 5px 10px;
+}
+
+.callout-title
+{
+    line-height: 1.5;
+}
+
+.clickable-icon
+{
+    padding: 2px;
+}
+
+.cm-content
+{
+    padding: 5px;
+}
+
+.cm-s-obsidian
+{
+    --code-size: 12px;
+}
+
+.cm-scroller
+{
+    border-radius: 0px;
+
+    --file-margins: 25px;
+}
+
+.HyperMD-codeblock
+{
+    border-top-left-radius:     0px;
+    border-top-right-radius:    0px;
+    border-bottom-left-radius:  0px;
+    border-bottom-right-radius: 0px;
+
+    --code-size: 13px;
+}
+
+.markdown-rendered h1
+{
+    margin: 5px;
+}
+
+.mod-linux .titlebar-button
+{
+    padding: 0 8px;
+}
+
+.nav-file-title
+{
+    border: 2px;
+}
+
+.nav-files-container
+{
+    padding: 10px 10px 10px;
+}
+
+.nav-folder-title
+{
+    margin-bottom: 0px;
+    padding:       5px;
+}
+
+.nav-header
+{
+    padding: 5px;
+}
+
+p
+{
+    margin-block-start: 2px;
+    margin-block-end:   2px;
+}
+
+.status-bar
+{
+      padding:           2px;
+    --status-bar-radius: 0px;
+}
+
+.titlebar-inner
+{
+    font-weight: 900;
+}
+
+.workspace-ribbon
+{
+    --ribbon-width: 32px;
+}
+
+.workspace-tab-header::before
+{
+    height: 0px;
+    left:   0px
+}
+
+.workspace-tab-header::after
+{
+    height: 0px;
+    right:  0px
+}
+
+.view-header
+{
+    height: 30px;
+}
+
